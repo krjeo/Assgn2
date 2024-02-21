@@ -1,0 +1,88 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Products</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Products page of Pat-Da-Pet online store">
+    <meta name="keywords" content="products, rat, guineapigarmor, girlfriend, chickenharness">
+    <meta name="author" content="Kim, Caue">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        main {
+            display: flex;
+            flex-wrap:  wrap;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        section {
+            
+            margin-bottom: 20px;
+        }
+        .productrow {
+            display: flex;
+            flex-direction: rows;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <img src="favicon.ico" alt="Logo">
+                </td>
+                <td>
+                    <h1>Pat-Da-Pet!</h1>
+                </td>
+            </tr>
+        </table>
+    </header>
+    
+    <div>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <main>
+        <div class="productrow">
+            <section>
+                <img src="rat.jpg" alt="Rat" width="200">
+                <h2>Rat</h2>
+                <p>Price: $19.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section>
+                <img src="guineapigarmor.jpg" alt="Guinea Pig Armor" width="200">
+                <h2>Guinea Pig Armor</h2>
+                <p>Price: $49.99</p>
+                <button>Add to Cart</button>
+            </section>
+        </div>
+        <div class="productrow">
+            <section>
+                <img src="woman.jpg" alt="Girlfriend" width="200">
+                <h2>Girlfriend</h2>
+                <p>Price: $999.99</p>
+                <button>Add to Cart</button>
+            </section>
+            <section>
+                <img src="chickenharness.jpg" alt="Chicken Harness" width="200">
+                <h2>Chicken Harness</h2>
+                <p>Price: $34.99</p>
+                <button>Add to Cart</button>
+            </section>
+        </div>
+    </main>
+</body>
+
+<footer>
+    <p>Copyright ⓒ 2024 JeongHyun Kim, Caue Girao Rodrigues</p>
+</footer>
+
+</html>

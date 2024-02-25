@@ -1,4 +1,13 @@
-<!-- index.html -->
+<!--
+=========================================================
+Name : login.html
+Assignment : Assignment 2
+Author(s) : Jeeya Somaiya UCID: 30173469, Jeonghyun Kim UCID: 30239102
+Submission : February 5, 2023
+Description : Login of an e-commerce website.
+=========================================================
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,20 +18,15 @@
     <meta name="keywords" content="username, password, login, signup">
     <meta name="author" content="Kim, Caue">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
     <header>
-        <table>
-            <tr>
-                <td>
-                    <img src="favicon.ico" alt="Logo">
-                </td>
-                <td>
-                    <h1>Pat-Da-Pet!</h1>
-                </td>
-            </tr>
-        </table>
+        <div class="logo-container">
+            <img src="favicon.ico" alt="Logo">
+            <h1 class="company-name">Pat-Da-Pet!</h1>
+        </div>
     </header>
     
     <div>
@@ -36,13 +40,14 @@
         <section class="login-page">
             <label for="username">Username</label>
             <input type="text" placeholder="Enter Username" name="username" required>
-
+    
             <label for="password">Password</label>
             <input type="password" placeholder="Enter Password" name="password" required>
+    
             <button type="submit">Login</button>
-            <a href="sign-up.html">Don't have an account? Sign up.</a>
+            <p>Don't have an account? <a href="sign-up.html">Sign up here</a></p>
         </section>
-    </main>
+    </main>    
 </body>
 
 <footer>

@@ -1,0 +1,174 @@
+/*
+=========================================================
+Name : styles.css
+Assignment : Assignment 2
+Author(s) : Jeeya Somaiya UCID: 30173469, Jeonghyun Kim UCID: 30239102
+Submission : February 5, 2023
+Description : Styling for an e-commerce website.
+=========================================================
+*/
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    color: white; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    margin-left: auto; 
+    margin-right: 30px; 
+}
+
+header img {
+    margin-right: 10px; 
+}
+
+/* Navigation Bar */
+div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333;
+}
+
+div a {
+    padding: 10px 20px;
+    color: white; 
+    text-decoration: none; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    width: 90%;
+    font-family: Arial, sans-serif;
+}
+
+/* Shop Now Button */
+.shop-now {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.shop-now button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.shop-now button:hover {
+    background-color: #45a049;
+}
+
+/* Customer Reviews Section */
+.customer-reviews {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    width: 90%;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Login Form Section */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    width: 90%;
+    height: auto;
+}
+
+/* Form Fields */
+.login-page label {
+    display: block;
+    text-align: left; 
+    margin: 10px 0; 
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0; 
+    border-radius: 5px;
+    width: 30%; 
+}
+
+.login-page input[type="text"]::placeholder,
+.login-page input[type="password"]::placeholder {
+    color: #999;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Login Button */
+.login-page button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.login-page button:hover {
+    background-color: #45A049;
+    opacity: 1;
+}
+
+/* Signup Link */
+.login-page a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px 0; 
+}
+
+.login-page a:hover {
+    text-decoration: underline;
+}

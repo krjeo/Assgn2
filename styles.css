@@ -113,7 +113,7 @@ footer {
 .login-page {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     background-color: #ddd;
     padding: 20px;
     margin: 20px;
@@ -123,20 +123,26 @@ footer {
     height: auto;
 }
 
-/* Form Fields */
+/* Input Container */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 10px; 
+}
+
 .login-page label {
     display: block;
-    text-align: left; 
-    margin: 10px 0; 
+    text-align: left;
+    margin-bottom: 5px;
 }
 
 .login-page input[type="text"],
 .login-page input[type="password"] {
     background-color: #fff;
     padding: 10px;
-    margin: 10px 0; 
     border-radius: 5px;
-    width: 30%; 
+    width: 100%;
 }
 
 .login-page input[type="text"]::placeholder,
@@ -146,9 +152,9 @@ footer {
 
 /* Button Container */
 .button-container {
+    width: 70%;
     display: flex;
     justify-content: flex-end;
-    width: 100%;
 }
 
 /* Login Button */
@@ -156,29 +162,30 @@ footer {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
-    margin: 10px 0; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    opacity: 0.5;
-    transition: background-color 0.3s, opacity 0.3s;
+    transition: background-color 0.3s;
+    width: auto; 
+    margin-left: auto; 
+    margin-top: 5px; 
 }
 
 .login-page button:hover {
     background-color: #45A049;
-    opacity: 1;
 }
 
 /* Signup Link */
 .login-page a {
     color: #007BFF;
     text-decoration: none;
-    margin: 10px 0; 
+    margin-top: 10px; 
 }
 
 .login-page a:hover {
     text-decoration: underline;
 }
+
 
 /*products*/
 .product-list {
